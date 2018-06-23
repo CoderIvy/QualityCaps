@@ -1,0 +1,64 @@
+﻿@model QualityCaps.Models.Cap
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2 class="text-center"><strong>Create New Cap</strong></h2>
+<br /><br />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CapName" class="control-label"></label>
+                <input asp-for="CapName" class="form-control" />
+                <span asp-validation-for="CapName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SupplierID" class="control-label"></label>
+                <select asp-for="SupplierID" class="form-control" asp-items="ViewBag.SupplierID">
+                    <option value="">--  Select Supplier  --</option>
+                </select>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryID" class="control-label"></label>
+                <select asp-for="CategoryID" class="form-control" asp-items="ViewBag.CategoryID">
+                    <option value="">--  Select Category  --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>  <br />
+                <input asp-for="Image" class="form-control" type="file" name="uploadImg" id="uploadImg" /><br />
+                <span asp-validation-for="Image" class="text-danger"></span>
+                <img id="imgPreview" style="max-width: 200px;" class="img img-responsive" src="">
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

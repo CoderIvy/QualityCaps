@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.Encodings.Web;
+using System.Threading.Tasks;
+using QualityCaps.Services;
+
+namespace QualityCaps.Services
+{
+    public static class EmailSenderExtensions
+    {
+        public static Task SendEmailConfirmationAsync(this IEmailSender emailSender, string email, string link)
+        {
+ /*           var url = HtmlEncoder.Default.Encode(link);
+           url = url.Replace("amp;","");
+            return emailSender.SendEmailAsync(email, "Confirm your email",
+                $"Please confirm your account by clicking this link: <a href={url}>link</a>");
+*/
+            return emailSender.SendEmailAsync(email, "Confirm your email",
+                $"Please confirm your account by clicking this link: <a href='{HtmlEncoder.Default.Encode(link)}'>link</a>");
+        }
+    }
+}

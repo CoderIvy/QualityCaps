@@ -1,0 +1,107 @@
+﻿@model IEnumerable<QualityCaps.Models.Cap>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2 class="text-center"> <strong>Caps Management</strong></h2>
+<br /><br />
+
+<p >
+    <a asp-action="Create">Create New Cap</a>
+</p>
+
+<div class="col-md-offset-3 col-md-9" style="text-align:right">
+    <form asp-action="Index" method="get">
+        <div class="form-actions no-color">
+            <p>
+                <input type="text" style="width:200px;" name="SearchString" placeholder="Find by name" value="@ViewData["currentFilter"]" />
+                <input type="submit" value="Search" class="btn btn-default" /> |
+                <a class="btn btn-default" href="~/Caps">Back to Full List</a>
+            </p>
+        </div>
+    </form>
+
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Image
+            </th>
+            <th>
+                Cap ID
+            </th>
+            <th>
+                Cap Name
+            </th>
+
+            <th>
+                Price
+            </th>
+
+            <th>
+                Description
+            </th>
+
+            <th>Functions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img width="60" height="55" src=@Html.DisplayFor(modelItem => item.Image) />
+                </td>
+
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.CapID)
+                </td>
+                <td width="120">
+                    @Html.DisplayFor(modelItem => item.CapName)
+                </td>
+
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+
+
+                <td width="50%">
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CapID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.CapID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CapID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+<!--previous and next button-->
+@*
+    @{
+        var preVDisabled = !Model.HasPreviousPage ? "disabled" : "";
+        var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    }
+    <div class="col-md-10">
+        <a asp-action="Index"
+           asp-route-page="@(Model.PageIndex -1)"
+           asp-route-currentFilter="@ViewData["CurrentFilter"]"
+           class="btn btn-default @preVDisabled">
+            Previous
+        </a>
+    </div>
+    <div class="col-md-1">
+        <a asp-action="Index"
+           asp-route-page="@(Model.PageIndex + 1)"
+           asp-route-currentFilter="@ViewData["CurrentFilter"]"
+           class="btn btn-default @nextDisabled">
+            Next
+        </a>
+    </div><br /><br />*@

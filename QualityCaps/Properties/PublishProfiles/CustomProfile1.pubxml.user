@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7pWkDxrmVkOnpZN64VHYLwAAAAACAAAAAAAQZgAAAAEAACAAAACu7HK2aqst/Zf8OjaxOiBhLSOUYmZZsMSt1jyKrNMswQAAAAAOgAAAAAIAACAAAAAcLWcJHr9khYYGF1X3EESmvod97xTP6OmWmYnnnMyqeCAAAACWlxxRW4zFe6JO73SIprcttF1f9ZNtQZId3uGHBPOPvEAAAAA7o1SJrRVc80wnTVBWKuBn5yIEpYhO2QxFXKMv7eChrN9al9tExKy1hp1rsojQ0MZo5ks4g7u6WGTCwVQBiunS</EncryptedPassword>
+    <_PublishTargetUrl>ftp://dochyper.unitec.ac.nz/asp_application1/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>05/01/2018 19:59:18</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>05/17/2018 15:36:42</publishTime>
+    </File>
+    <File Include="BouncyCastle.Crypto.dll">
+      <publishTime>08/17/2017 18:20:54</publishTime>
+    </File>
+    <File Include="bundleconfig.json">
+      <publishTime>05/01/2018 19:59:19</publishTime>
+    </File>
+    <File Include="MailKit.dll">
+      <publishTime>04/15/2018 13:33:50</publishTime>
+    </File>
+    <File Include="MimeKit.dll">
+      <publishTime>04/14/2018 13:16:48</publishTime>
+    </File>
+    <File Include="QualityCaps.deps.json">
+      <publishTime>05/17/2018 15:38:12</publishTime>
+    </File>
+    <File Include="QualityCaps.dll">
+      <publishTime>05/17/2018 15:38:02</publishTime>
+    </File>
+    <File Include="QualityCaps.pdb">
+      <publishTime>05/17/2018 15:38:02</publishTime>
+    </File>
+    <File Include="QualityCaps.PrecompiledViews.dll">
+      <publishTime>05/17/2018 15:38:11</publishTime>
+    </File>
+    <File Include="QualityCaps.PrecompiledViews.pdb">
+      <publishTime>05/17/2018 15:38:11</publishTime>
+    </File>
+    <File Include="QualityCaps.runtimeconfig.json">
+      <publishTime>05/17/2018 15:38:12</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>05/17/2018 15:38:12</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/images/baseball/baseball01.jpg">
+      <publishTime>04/04/2018 20:19:15</publishTime>
+    </File>
+    <File Include="wwwroot/images/baseball/baseball02.jpg">
+      <publishTime>04/04/2018 20:19:42</publishTime>
+    </File>
+    <File Include="wwwroot/images/baseball/baseball03.jpeg">
+      <publishTime>04/04/2018 20:20:01</publishTime>
+    </File>
+    <File Include="wwwroot/images/baseball/baseball04.jpeg">
+      <publishTime>04/04/2018 20:20:22</publishTime>
+    </File>
+    <File Include="wwwroot/images/baseball/baseball05.jpeg">
+      <publishTime>04/04/2018 20:20:42</publishTime>
+    </File>
+    <File Include="wwwroot/images/baseball/baseball06.jpeg">
+      <publishTime>04/04/2018 20:20:58</publishTime>
+    </File>
+    <File Include="wwwroot/images/baseball/baseball07.jpg">
+      <publishTime>04/04/2018 20:21:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat01.jpeg">
+      <publishTime>04/04/2018 20:22:21</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat02.jpg">
+      <publishTime>04/04/2018 20:21:53</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat03.jpeg">
+      <publishTime>04/04/2018 20:22:40</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat04.jpeg">
+      <publishTime>04/04/2018 20:22:56</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat05.jpeg">
+      <publishTime>04/04/2018 20:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat06.jpeg">
+      <publishTime>04/04/2018 20:23:22</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat07.jpeg">
+      <publishTime>04/04/2018 20:23:53</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat08.jpeg">
+      <publishTime>04/04/2018 20:24:06</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat09.jpeg">
+      <publishTime>04/04/2018 20:24:17</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat10.jpeg">
+      <publishTime>04/04/2018 20:24:38</publishTime>
+    </File>
+    <File Include="wwwroot/images/flat/flat11.jpeg">
+      <publishTime>04/04/2018 20:24:58</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit01.jpeg">
+      <publishTime>04/04/2018 20:15:40</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit02.jpeg">
+      <publishTime>04/04/2018 20:15:58</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit03.jpeg">
+      <publishTime>04/04/2018 20:16:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit04.jpeg">
+      <publishTime>04/04/2018 20:16:38</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit05.jpeg">
+      <publishTime>04/04/2018 20:16:58</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit06.png">
+      <publishTime>04/04/2018 20:34:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit07.jpeg">
+      <publishTime>04/04/2018 20:17:38</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit08.jpeg">
+      <publishTime>04/04/2018 20:18:01</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit09.jpeg">
+      <publishTime>04/04/2018 20:18:21</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit10.jpeg">
+      <publishTime>04/04/2018 20:18:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit11.jpg">
+      <publishTime>04/04/2018 20:46:58</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit12.png">
+      <publishTime>04/04/2018 20:46:35</publishTime>
+    </File>
+    <File Include="wwwroot/images/knit/knit13.png">
+      <publishTime>04/04/2018 20:49:51</publishTime>
+    </File>
+    <File Include="wwwroot/images/others/banner01.png">
+      <publishTime>04/04/2018 16:29:45</publishTime>
+    </File>
+    <File Include="wwwroot/images/others/banner02.png">
+      <publishTime>04/04/2018 16:34:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/others/banner03.png">
+      <publishTime>04/04/2018 16:35:41</publishTime>
+    </File>
+    <File Include="wwwroot/images/others/banner04.jpeg">
+      <publishTime>04/07/2018 10:22:58</publishTime>
+    </File>
+    <File Include="wwwroot/images/others/contact.png">
+      <publishTime>04/08/2018 19:53:51</publishTime>
+    </File>
+    <File Include="wwwroot/images/others/logo.png">
+      <publishTime>04/04/2018 23:18:17</publishTime>
+    </File>
+    <File Include="wwwroot/images/others/logoblack.png">
+      <publishTime>04/11/2018 19:42:53</publishTime>
+    </File>
+    <File Include="wwwroot/images/others/logowhite.png">
+      <publishTime>04/04/2018 23:27:50</publishTime>
+    </File>
+    <File Include="wwwroot/images/sailor/sailor01.jpeg">
+      <publishTime>04/04/2018 20:12:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/sailor/sailor02.jpeg">
+      <publishTime>04/04/2018 20:12:18</publishTime>
+    </File>
+    <File Include="wwwroot/images/sailor/sailor03.png">
+      <publishTime>04/04/2018 20:13:23</publishTime>
+    </File>
+    <File Include="wwwroot/images/sailor/sailor04.jpeg">
+      <publishTime>04/04/2018 20:14:58</publishTime>
+    </File>
+    <File Include="wwwroot/images/sailor/sailor05.jpeg">
+      <publishTime>04/04/2018 20:13:49</publishTime>
+    </File>
+    <File Include="wwwroot/images/sailor/sailor06.jpeg">
+      <publishTime>04/04/2018 20:14:15</publishTime>
+    </File>
+    <File Include="wwwroot/images/sailor/sailor07.jpeg">
+      <publishTime>04/04/2018 20:14:28</publishTime>
+    </File>
+    <File Include="wwwroot/images/sailor/sailor08.jpeg">
+      <publishTime>04/04/2018 20:14:42</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/1-636594725935257823.jpg">
+      <publishTime>04/16/2018 10:49:53</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/2-636608046765094470.jpg">
+      <publishTime>05/01/2018 20:51:16</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/2-636608046982075412.jpg">
+      <publishTime>05/01/2018 20:51:38</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/2-636609408640901121.jpg">
+      <publishTime>05/03/2018 10:41:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/2-636611142841404270.jpg">
+      <publishTime>05/05/2018 10:51:24</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/2-636614065700401579.jpg">
+      <publishTime>05/08/2018 20:02:50</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/2-636614066414257613.jpg">
+      <publishTime>05/08/2018 20:04:01</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/3-636618308460107967.jpg">
+      <publishTime>05/13/2018 17:54:06</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/4-636594156422560365.jpg">
+      <publishTime>04/15/2018 19:00:42</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/5-636594156042219837.jpg">
+      <publishTime>04/15/2018 19:00:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/5-636594156701166847.jpg">
+      <publishTime>04/15/2018 19:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/5-636594185516790268.jpg">
+      <publishTime>04/15/2018 19:49:11</publishTime>
+    </File>
+    <File Include="wwwroot/images/upload/5-636594725465032623.jpg">
+      <publishTime>04/16/2018 10:49:06</publishTime>
+    </File>
+    <File Include="wwwroot/js/imagePreview.js">
+      <publishTime>04/15/2018 19:42:46</publishTime>
+    </File>
+    <File Include="wwwroot/js/imagePreview.min.js">
+      <publishTime>04/04/2018 15:47:13</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.min.js">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/.bower.json">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/01/2018 19:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/.bower.json">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/.bower.json">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>05/01/2018 19:59:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

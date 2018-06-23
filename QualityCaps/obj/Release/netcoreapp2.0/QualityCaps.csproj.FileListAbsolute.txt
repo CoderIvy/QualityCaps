@@ -1,0 +1,12 @@
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\bin\Release\netcoreapp2.0\QualityCaps.deps.json
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\bin\Release\netcoreapp2.0\QualityCaps.runtimeconfig.json
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\bin\Release\netcoreapp2.0\QualityCaps.runtimeconfig.dev.json
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\bin\Release\netcoreapp2.0\QualityCaps.dll
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\bin\Release\netcoreapp2.0\QualityCaps.pdb
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\obj\Release\netcoreapp2.0\QualityCaps.csproj.CoreCompileInputs.cache
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\obj\Release\netcoreapp2.0\QualityCaps.AssemblyInfoInputs.cache
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\obj\Release\netcoreapp2.0\QualityCaps.AssemblyInfo.cs
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\obj\Release\netcoreapp2.0\QualityCaps.dll
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\obj\Release\netcoreapp2.0\QualityCaps.pdb
+C:\Users\ivyke\Downloads\WebProject\QualityCaps\QualityCaps\obj\Release\netcoreapp2.0\QualityCaps.csprojAssemblyReference.cache

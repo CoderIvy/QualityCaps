@@ -1,0 +1,94 @@
+﻿@model QualityCaps.Models.Order
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2 class="text-center"><strong>Order Details</strong></h2>
+<br /><br />
+<div>
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(model => model.User.Email)</dt>
+        <dd>@Html.DisplayFor(model => model.User.Email)</dd>
+        <dt>@Html.DisplayNameFor(model => model.User.Address)</dt>
+        <dd>@Html.DisplayFor(model => model.City)  @Html.DisplayFor(model => model.Country)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.FirstName)</dt>
+        <dd>@Html.DisplayFor(model => model.FirstName)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.OrderDate)</dt>
+        <dd>@Html.DisplayFor(model => model.OrderDate)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Status)</dt>
+        <dd>@Html.DisplayFor(model => model.Status)</dd>
+
+        <dd>
+            <br /><br />
+                  <table class="table">
+                      <tr>
+                          <th>Products</th>
+                          <th>Price</th>
+                          <th>Quantity</th>
+
+                      </tr>
+                      @foreach (var item in Model.OrderDetails)
+    {
+                  <tr>
+                      <td>
+                          @Html.DisplayFor(modelItem => item.Cap.CapName)
+                      </td>
+                      <td>
+                          @Html.DisplayFor(modelItem => item.Cap.Price)
+                      </td>
+                      <td>
+                          @Html.DisplayFor(modelItem => item.Quantity)
+                      </td>
+
+                  </tr>
+}
+                      @*    @{
+            var SubTotal = ViewData["SubTotal"];
+            var SubTotalll = ViewData["SubTotalll"];
+
+            var GST = ViewData["GST"];
+        }
+        <tr>
+            <td></td>
+
+            <td>
+                <label>SubTotal:</label>
+            </td>
+            <td>
+                @SubTotal
+            </td>
+            @SubTotalll 111
+        </tr>
+        <tr>
+            <td></td>
+
+            <td>
+                <label>GST(15%):</label>
+            </td>
+            <td>
+                @GST
+            </td>
+        </tr>*@
+                      <tr>
+                          <td></td>
+
+                          <td>
+                              <label>Total:</label>
+                          </td>
+                          <td>
+                              @Html.DisplayFor(modelItem => Model.Total)
+                          </td>
+                      </tr>
+
+                  </table>
+            <br />
+        </dd>
+
+    </dl>
+    <a asp-action="Index">Back to List</a>
+</div>
+
