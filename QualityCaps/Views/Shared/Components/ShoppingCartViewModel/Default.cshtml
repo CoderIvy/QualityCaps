@@ -5,10 +5,17 @@
 }
 
 
-
+@{
+    var totalQty = 0;
+    @foreach (var item in Model.CartItems)
+    {
+        totalQty = totalQty +  item.Count;
+    }
+}
 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
     <span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Shopping Cart&nbsp<span class="badge">
-        @Model.CartItems.Count()
+    @totalQty
+  
     </span>
 </a>
 
