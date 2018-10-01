@@ -14,7 +14,7 @@ namespace QualityCaps.Services
         public Task SendEmailAsync(string email, string subject, string message)
         {
             var mes = new MimeMessage();
-            mes.From.Add(new MailboxAddress("chenl85", "chenl85@myunitec.ac.nz"));
+            mes.From.Add(new MailboxAddress("xxxxxx", "xxxxxx@myunitec.ac.nz"));
             mes.To.Add(new MailboxAddress("User", email));
             mes.Subject = subject;
 
@@ -32,7 +32,7 @@ namespace QualityCaps.Services
                 client.AuthenticationMechanisms.Remove("XOAUTH2");
 
                 //only need if the SMTP server requires authentication
-                client.Authenticate("chenl85@myunitec.ac.nz", "a0vachan");
+                client.Authenticate("xxxxx@myunitec.ac.nz", "xxxxxxxx");
 
                 client.Send(mes);
                 client.Disconnect(true);
